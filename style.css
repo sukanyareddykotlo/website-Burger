@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+    overflow-x: clip;
+}
+
+.banner {
+    background-image: url(media/images/2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 90%;
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #B57114;
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.menu li:hover {
+
+    border-radius: 5px;
+    transition: .03s ease-in;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+input {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 18px;
+    user-select: none;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.head {
+    color: #B57114;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    transform: translate(40px, 10px);
+
+}
+
+.banner p {
+    color: white;
+    opacity: 80%;
+    font-size: 20px;
+    margin-left: 47px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.banner .btn-1 {
+    width: 130px;
+    height: 45px;
+    background-color: #B57114;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.banner .btn-2 {
+    width: 140px;
+    height: 45px;
+    border: 2px solid #B57114;
+    color: #B57114;
+    font-size: 18px;
+    border-radius: 10px;
+    background: none;
+
+}
+
+/* our story */
+.grid-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.grid-story {
+    width: 650px;
+    height: 400px;
+
+  
+    margin-top: 40px;
+
+}
+
+.grid-story img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+   
+}
+
+.grid-story p {
+    padding-top: 23px;
+    font-size: 17px;
+    color: #012E40;
+}
+
+.grid-story h2 {
+    font-size: 40px;
+    color: #012E40;
+    letter-spacing: 1px;
+}
+
+.grid-story h2 span {
+    color: #CC8D1A;
+    font-size: 40px;
+}
+
+.about-story {
+    color: #012E40;
+    font-size: 20px;
+    margin-top: 16px;
+    letter-spacing: 1px;
+}
+
+.grid-story .btn-3 {
+    width: 130px;
+    height: 45px;
+    background-color: #B57114;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* items */
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    gap: 15px;
+}
+
+.grid-items {
+    width: 350px;
+    height: 400px;
+
+    box-shadow: 1px 1px 1px 1px gray;
+    margin: 60px;
+    border-radius: 20px;
+}
+
+.grid-items img {
+    width: 40px;
+    height: 40px;
+    padding: 30px 0px 0px 150px;
+
+}
+
+.grid-items h3 {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    padding-top: 20px;
+}
+
+.grid-items h3:hover {
+    color: #CC8D1A;
+    cursor: pointer;
+}
+
+.grid-items p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.grid-items h6 {
+    color: #B57114;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 22px;
+}
+
+.grid-items h6:hover {
+    color: #012E40;
+    cursor: grab;
+}
+
+/* about */
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+    gap: 10px
+}
+
+.grid-about {
+    width: 400px;
+    height: 550px;
+
+    margin: 40px;
+}
+
+.grid-about img {
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.grid-about i {
+    color: #CC8D1A;
+}
+
+.one-div h4 i {
+    padding: 20px;
+    color: #CC8D1A;
+    font-size: 28px;
+}
+
+.one-div h4 i:hover {
+    color: #012E40;
+    cursor: grab;
+}
+
+.one-div h4 span {
+    color: #012E40;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.one-div h4 span:hover {
+    color: #CC8D1A;
+    cursor: grab;
+}
+
+.one-div p {
+    color: gray;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 70px;
+}
+
+/* offer */
+
+.offer {
+    background-image: url(media/images/10.jpg);
+    background-position: center;
+    width: 100%;
+    height: 390px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 90%;
+}
+
+.offer h5 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 40px;
+}
+
+.offer p {
+    color: #CC8D1A;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.offer p span {
+    color: white;
+    font-weight: bold;
+}
+
+.btn-4 {
+    width: 130px;
+    height: 45px;
+    background-color: #B57114;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 60px 30px 0px 450px;
+}
+
+.btn-5 {
+    width: 140px;
+    height: 45px;
+    border: 2px solid #B57114;
+    color: #B57114;
+    font-size: 18px;
+    border-radius: 10px;
+    background: none;
+}
+
+/* gallary */
+
+h6 {
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0px 4px 0px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.gallary {
+    text-align: center;
+    font-size: 30px;
+    color: #012E40;
+    font-weight: bold;
+}
+
+/* our gallary */
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+.grid-images img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 30px 0px 0px 25px;
+    border-radius: 28px;
+}
+
+/* why we */
+
+.why-we {
+    text-align: center;
+    font-size: 21px;
+    color: gray;
+    margin-top: 80px;
+    letter-spacing: 1px;
+}
+
+.best {
+    color: #012E40;
+    text-align: center;
+    font-size: 33px;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* grid  */
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-reasons {
+    width: 300px;
+    height: 270px;
+
+    margin: 70px 0px 0px 5px;
+    box-shadow: 0px 1px 1px 1px gray;
+}
+
+.grid-reasons i {
+    color: #CC8D1A;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.grid-reasons i:hover {
+    color: #012E40;
+}
+
+.grid-reasons h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #012E40;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.grid-reasons h3:hover {
+    color: #CC8D1A;
+    cursor: grab;
+}
+
+.grid-reasons p {
+    padding-top: 30px;
+    font-size: 17px;
+    text-align: center;
+    color: gray;
+}
+
+/* download the app */
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+.grid-app {
+    width: 600px;
+    height: 400px;
+    margin: 60px 0px 0px 10px;
+}
+
+.grid-app h5 {
+    color: gray;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.grid-app h2 {
+    color: #012E40;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.grid-app p {
+    font-size: 17px;
+    text-align: justify;
+    color: gray;
+    padding-top: 10px;
+}
+
+.app img {
+    width: 250px;
+    height: 70px;
+    object-fit: cover;
+    padding-top: 40px;
+}
+
+.grid-app .or {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.grid-app h4 {
+    font-size: 24px;
+    color: #012E40;
+
+}
+
+.your-mail {
+    width: 170px;
+    height: 20px;
+    border: 2px solid #012E40;
+    background-color: white;
+    padding: 10px;
+    border: none;
+
+    margin-top: 20px;
+}
+
+.btn-6 {
+    width: 90px;
+    height: 40px;
+    background-color: #CC8D1A;
+    transform: translate(200px, -40px);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.grid-app .image {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    margin-top: 120px;
+}
+
+.grid-7 {
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+}
+
+.grid-footer {
+    width: 360px;
+    height: 350px;
+
+    margin: 40px 0px 0px 50px;
+}
+
+
+
+.grid-footer p {
+    color:gray;
+    font-size: 18px;
+    font-weight: none;
+    transform: translateY(20px);
+}
+
+.grid-footer h4 {
+    color: white;
+    font-size: 25px;
+}
+
+.address p {
+    color: gray;
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.phone p {
+    color: gray;
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+}
+
+.email p {
+    color: gray;
+    font-size: 17px;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+}
+
+.social-media p {
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+
+.social-media i {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.grid-footer h5 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+.payments img {
+    width: 80px;
+    height: 50px;
+    object-fit: contain;
+    padding: 5px;
+    margin-top: 10px;
+}
+.new-mail
+{
+    margin-top: 20px;
+}
+
+.input
+{
+    width:250px;
+    height: 30px;
+    border: 1px solid gray;
+    margin-top: 40px;
+    cursor: pointer;
+   
+}
+.button
+{
+    width:250px;
+    height: 30px;
+    background-color:#CC8D1A ;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.subscribe
+{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer .rights
+{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 18px;
+}
